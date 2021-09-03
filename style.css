@@ -1,0 +1,33 @@
+.heading{
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+    cursor: context-menu;
+    background-color: #f0ad4e;
+}
+.heading:hover{
+    background-color: #f0ad4e;
+}
+canvas{
+    border: 3px solid white;
+    border-radius: 20px;
+    animation-name: identifier;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes identifier { 0%{box-shadow: 1px 1px 50px red;} 12.5%{box-shadow: 1px 1px 50px orange;} 25%{box-shadow: 1px 1px 50px yellow;} 37.5%{box-shadow: 1px 1px 50px rgb(0, 255, 0);} 50%{box-shadow: 1px 1px 50px rgb(0, 255, 255);} 62.5%{box-shadow: 1px 1px 50px blue;} 75%{box-shadow: 1px 1px 50px purple;} 87.5%{box-shadow: 1px 1px 50px rgb(255, 0, 255);} 100%{box-shadow: 1px 1px 50px red;} }
+#dropdowns{
+    background-color: white;
+    width: 9%;
+    visibility:hidden;
+    margin-top: -20px;
+    height: 0px;
+}
+.dropdown-item{
+    width: 100%
+}
+#close{
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
